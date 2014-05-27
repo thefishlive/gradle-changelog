@@ -10,8 +10,10 @@ To add to a build simple add these lines to the buildscript at the top
 
     buildscript {
         repositories {
-            name = "changelog"
-            url = "http://thefishlive.github.io/gradle-changelog"
+            maven {
+                name = "changelog"
+                url = "http://thefishlive.github.io/gradle-changelog"
+            }
         }
         dependencies {
             classpath "io.github.thefishlive:ChangeLog:1.0.0"
