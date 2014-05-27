@@ -14,7 +14,7 @@ To add to a build simple add these lines to the buildscript at the top
             url = "http://thefishlive.github.io/gradle-changelog"
         }
         dependencies {
-            classpath "io.github.thefishlive:ChangeLog:0.0.1-SNAPSHOT"
+            classpath "io.github.thefishlive:ChangeLog:1.0.0"
         }
     }
     

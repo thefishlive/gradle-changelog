@@ -4,7 +4,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven'
 
 group = 'io.github.thefishlive'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 archivesBaseName = 'ChangeLog'
 targetCompatibility = '1.7'
 sourceCompatibility = '1.7'
@@ -40,7 +40,7 @@ artifacts {
 install {
     repositories {
         mavenDeployer {
-            repository(url: "....//changelog-repository/")
+            repository(url: "..//changelog-repository/")
         }
     }
 }
