@@ -1,0 +1,6 @@
+changelog-repository/
+build/
+*.iml
+*.ipr
+*.iws
+.gradle/
