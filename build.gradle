@@ -4,7 +4,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven'
 
 group = 'io.github.thefishlive'
-version = '1.0.0'
+version = '1.1.0-SNAPSHOT'
 archivesBaseName = 'ChangeLog'
 targetCompatibility = '1.7'
 sourceCompatibility = '1.7'
